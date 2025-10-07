@@ -1,0 +1,19 @@
+<div class="column-layout documents_page_content">
+  <div class="column-layout documents_page_header">
+    <h4 class="documents_title">
+      Documents
+    </h4>
+    <igx-input-group type="border" class="documents_search_input">
+      <igx-prefix>
+        <igx-icon class="icon-851rw">
+          search
+        </igx-icon>
+      </igx-prefix>
+      <input type="text" [(ngModel)]="value" placeholder="Search by name, type, or tag" igxInput />
+      <label igxLabel>Search Documents</label>
+    </igx-input-group>
+  </div>
+  <button igxButton="contained" type="button" igxRipple class="upload_document_button">
+    Upload New Document
+  </button>
+</div>

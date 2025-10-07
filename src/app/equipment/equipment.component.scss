@@ -1,0 +1,125 @@
+:host {
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 0;
+}
+.column-layout {
+  display: flex;
+  flex-direction: column;
+}
+.equipment_page_content {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 24px;
+  overflow: auto;
+  position: relative;
+  padding: 24px;
+  min-width: 50px;
+  min-height: 50px;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.equipment_page_header {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 8px;
+  position: relative;
+  min-width: unset;
+  max-height: unset;
+  flex-shrink: 0;
+}
+.equipment_basic_dashboard_section_1 {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 24px;
+  position: relative;
+  min-width: 360px;
+  min-height: 50px;
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+.row-layout {
+  display: flex;
+}
+.equipment_cards_row {
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 24px;
+  position: relative;
+  min-width: 50px;
+  min-height: 50px;
+  flex-shrink: 0;
+}
+.equipment_card_1 {
+  height: max-content;
+  min-width: 260px;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.equipment_card_1_content {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 0;
+  position: relative;
+  min-width: unset;
+  max-height: unset;
+}
+.content {
+  height: max-content;
+  min-width: min-content;
+}
+.icon-dpyk9k {
+  --size: 24px;
+  font-size: 24px;
+  width: 24px;
+  height: 24px;
+}
+.equipment_card_1_avatar {
+  --igx-avatar-background: var(--ig-primary-500);
+}
+.icon {
+  color: var(--ig-surface-500);
+}
+.equipment_card_1_value {
+  color: var(--ig-gray-900);
+  height: max-content;
+  min-width: min-content;
+}
+.equipment_card_2_avatar {
+  --igx-avatar-background: var(--ig-success-500);
+}
+.equipment_card_3_avatar {
+  --igx-avatar-background: var(--ig-info-500);
+}
+.equipment_card_4_avatar {
+  --igx-avatar-background: var(--ig-error-500);
+}
+.equipment_card_1_avatar::part(base) {
+  --igx-avatar-color: var(--ig-surface-500);
+}
+.equipment_card_2_avatar::part(base) {
+  --igx-avatar-color: var(--ig-surface-500);
+}
+.equipment_card_3_avatar::part(base) {
+  --igx-avatar-color: var(--ig-surface-500);
+}
+.equipment_card_4_avatar::part(base) {
+  --igx-avatar-color: var(--ig-surface-500);
+}
+.body-content {
+  min-width: 50px;
+  min-height: 50px;
+}
+.equipment_search_input {
+  height: max-content;
+  min-width: min-content;
+}

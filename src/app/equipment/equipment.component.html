@@ -1,0 +1,124 @@
+<div class="column-layout equipment_page_content">
+  <div class="column-layout equipment_page_header">
+    <h4 class="content">
+      Equipment
+    </h4>
+    <igx-input-group type="border" class="equipment_search_input">
+      <igx-prefix>
+        <igx-icon class="icon-dpyk9k">
+          search
+        </igx-icon>
+      </igx-prefix>
+      <input type="text" [(ngModel)]="value" placeholder="Search by name, category, or status" igxInput />
+      <label igxLabel>Search Equipment</label>
+    </igx-input-group>
+  </div>
+  <div class="column-layout equipment_basic_dashboard_section_1">
+    <div class="column-layout equipment_page_header">
+      <h5 class="content">
+        Overview
+      </h5>
+      <p class="ig-typography__body-2 content">
+        Summary of your equipment inventory.
+      </p>
+    </div>
+    <div class="row-layout equipment_cards_row">
+      <igx-card class="equipment_card_1">
+        <igx-card-header>
+          <div igxCardThumbnail>
+            <igx-avatar shape="circle" class="equipment_card_1_avatar">
+              <igx-icon class="icon">
+                devices
+              </igx-icon>
+            </igx-avatar>
+          </div>
+          <h3 igxCardHeaderTitle>
+            Total Equipment
+          </h3>
+          <h5 igxCardHeaderSubtitle>
+            Subtitle goes here...
+          </h5>
+        </igx-card-header>
+        <igx-card-content class="body-content">
+          <div class="column-layout equipment_card_1_content">
+            <h3 class="equipment_card_1_value">
+              250
+            </h3>
+          </div>
+        </igx-card-content>
+      </igx-card>
+      <igx-card class="equipment_card_1">
+        <igx-card-header>
+          <div igxCardThumbnail>
+            <igx-avatar shape="circle" class="equipment_card_2_avatar">
+              <igx-icon class="icon">
+                check_circle
+              </igx-icon>
+            </igx-avatar>
+          </div>
+          <h3 igxCardHeaderTitle>
+            Available
+          </h3>
+          <h5 igxCardHeaderSubtitle>
+            Subtitle goes here...
+          </h5>
+        </igx-card-header>
+        <igx-card-content class="body-content">
+          <div class="column-layout equipment_card_1_content">
+            <h3 class="equipment_card_1_value">
+              200
+            </h3>
+          </div>
+        </igx-card-content>
+      </igx-card>
+      <igx-card class="equipment_card_1">
+        <igx-card-header>
+          <div igxCardThumbnail>
+            <igx-avatar shape="circle" class="equipment_card_3_avatar">
+              <igx-icon class="icon">
+                build
+              </igx-icon>
+            </igx-avatar>
+          </div>
+          <h3 igxCardHeaderTitle>
+            In Use
+          </h3>
+          <h5 igxCardHeaderSubtitle>
+            Subtitle goes here...
+          </h5>
+        </igx-card-header>
+        <igx-card-content class="body-content">
+          <div class="column-layout equipment_card_1_content">
+            <h3 class="equipment_card_1_value">
+              30
+            </h3>
+          </div>
+        </igx-card-content>
+      </igx-card>
+      <igx-card class="equipment_card_1">
+        <igx-card-header>
+          <div igxCardThumbnail>
+            <igx-avatar shape="circle" class="equipment_card_4_avatar">
+              <igx-icon class="icon">
+                gavel
+              </igx-icon>
+            </igx-avatar>
+          </div>
+          <h3 igxCardHeaderTitle>
+            Under Maintenance
+          </h3>
+          <h5 igxCardHeaderSubtitle>
+            Subtitle goes here...
+          </h5>
+        </igx-card-header>
+        <igx-card-content class="body-content">
+          <div class="column-layout equipment_card_1_content">
+            <h3 class="equipment_card_1_value">
+              20
+            </h3>
+          </div>
+        </igx-card-content>
+      </igx-card>
+    </div>
+  </div>
+</div>

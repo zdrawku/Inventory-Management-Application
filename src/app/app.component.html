@@ -1,0 +1,50 @@
+<igx-navbar class="main-nav-bar">
+  <igx-navbar-action>
+    <button igxIconButton="flat" igxRipple [igxToggleAction]="mainNavDrawer">
+      <igx-icon>
+        menu
+      </igx-icon>
+    </button>
+  </igx-navbar-action>
+  <igx-navbar-title class="navbar-content">
+    <h6 class="h6">
+      InventoryApp
+    </h6>
+  </igx-navbar-title>
+  <button igxIconButton="flat" igxRipple>
+    <igx-icon>
+      search
+    </igx-icon>
+  </button>
+  <button igxIconButton="flat" igxRipple>
+    <igx-icon>
+      notifications
+    </igx-icon>
+  </button>
+  <button igxIconButton="flat" igxRipple>
+    <igx-icon>
+      settings
+    </igx-icon>
+  </button>
+</igx-navbar>
+<div class="row-layout horizontal-group-layout">
+  <igx-nav-drawer [isOpen]="true" [pin]="true" width="320px" #mainNavDrawer class="main-nav-drawer">
+    <ng-template igxDrawer>
+      <div igxDrawerItem igxRipple [routerLink]="['/equipment']">
+        <span>Equipment</span>
+      </div>
+      <div igxDrawerItem igxRipple [routerLink]="['/requests']">
+        <span>Requests</span>
+      </div>
+      <div igxDrawerItem igxRipple [routerLink]="['/documents']">
+        <span>Documents</span>
+      </div>
+      <div igxDrawerItem igxRipple [routerLink]="['/logs']">
+        <span>Logs</span>
+      </div>
+    </ng-template>
+  </igx-nav-drawer>
+  <div class="page-container">
+    <router-outlet></router-outlet>
+  </div>
+</div>

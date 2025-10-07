@@ -1,0 +1,19 @@
+<div class="column-layout requests_page_content">
+  <div class="column-layout requests_page_header">
+    <h4 class="requests_title">
+      Requests
+    </h4>
+    <igx-input-group type="border" class="requests_search_input">
+      <igx-prefix>
+        <igx-icon class="icon-pp87u">
+          search
+        </igx-icon>
+      </igx-prefix>
+      <input type="text" [(ngModel)]="value" placeholder="Search by request ID, item, or status" igxInput />
+      <label igxLabel>Search Requests</label>
+    </igx-input-group>
+  </div>
+  <button igxButton="contained" type="button" igxRipple class="add_request_button">
+    Add New Request
+  </button>
+</div>
